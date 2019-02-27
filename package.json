@@ -1,0 +1,32 @@
+{
+  "name": "nextjs-ts-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tslint -c ./tslint.json --exclude **/*.d.ts --exclude ./node_modules --project . --fix **/*.tsx",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "@zeit/next-typescript": "^1.1.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "8.0.3",
+    "node-sass": "^4.11.0",
+    "react": "16.8.3",
+    "react-dom": "16.8.3"
+  },
+  "devDependencies": {
+    "@types/next": "^8.0.1",
+    "@types/react": "^16.4.16",
+    "@types/react-dom": "16.8.2",
+    "@zeit/next-sass": "^1.0.1",
+    "prettier": "^1.16.4",
+    "tslint": "^5.13.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "3.3.3333"
+  },
+  "license": "ISC"
+}
